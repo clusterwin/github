@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RepoResultsViewController : UIViewController <UISearchBarDelegate>
-
+@property (strong, nonatomic) NSArray *repos;
 @end

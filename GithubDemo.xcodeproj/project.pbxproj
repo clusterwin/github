@@ -15,6 +15,7 @@
 		6B2DDEF51B02911A00D25281 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2DDEF41B02911A00D25281 /* Images.xcassets */; };
 		6B2DDEF81B02911A00D25281 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B2DDEF61B02911A00D25281 /* LaunchScreen.xib */; };
 		6B2DDF041B02911A00D25281 /* GithubDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2DDF031B02911A00D25281 /* GithubDemoTests.swift */; };
+		CD393E651BE2D59F00D4039D /* RepoInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD393E641BE2D59F00D4039D /* RepoInfoTableViewCell.m */; };
 		DC8C92299CFB14D1C8E10596 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D94E75464198F12EDB3A9F3A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,8 @@
 		6B2DDF031B02911A00D25281 /* GithubDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubDemoTests.swift; sourceTree = "<group>"; };
 		6B2DDF0F1B0298B000D25281 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		8DE147C3212B96A86B7D0D73 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CD393E631BE2D59F00D4039D /* RepoInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepoInfoTableViewCell.h; sourceTree = "<group>"; };
+		CD393E641BE2D59F00D4039D /* RepoInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepoInfoTableViewCell.m; sourceTree = "<group>"; };
 		D94E75464198F12EDB3A9F3A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98FBEA28584B029201B4EE3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +120,8 @@
 				6B2DDEF11B02911A00D25281 /* Main.storyboard */,
 				114EB9371BA8319D006B75CA /* RepoResultsViewController.h */,
 				114EB9381BA8319D006B75CA /* RepoResultsViewController.m */,
+				CD393E631BE2D59F00D4039D /* RepoInfoTableViewCell.h */,
+				CD393E641BE2D59F00D4039D /* RepoInfoTableViewCell.m */,
 				114EB93A1BA8441F006B75CA /* GithubRepo.h */,
 				114EB93B1BA8441F006B75CA /* GithubRepo.m */,
 				114EB93D1BA84437006B75CA /* GithubRepoSearchSettings.h */,
@@ -302,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD393E651BE2D59F00D4039D /* RepoInfoTableViewCell.m in Sources */,
 				114EB9391BA8319D006B75CA /* RepoResultsViewController.m in Sources */,
 				6B2DDEEE1B02911A00D25281 /* AppDelegate.swift in Sources */,
 				114EB93C1BA8441F006B75CA /* GithubRepo.m in Sources */,
